@@ -1,0 +1,2 @@
+/*! IE-Checker v1.0 | (c) 2007-2014 The GrotesQ | grotesq.com */
+!function(){var e=navigator.userAgent.toLowerCase();if(-1!=e.indexOf("msie")||-1!=e.indexOf("trident")){var a=11;e=/msie ([0-9]{1,}[\.0-9]{0,})/.exec(e),e&&(a=parseInt(e[1]));var i="";i+=" is-ie",i+=" ie"+a;for(var t=a+1;11>=t;t++)i+=" lt-ie"+t;document.getElementsByTagName("html")[0].className+=i}}();

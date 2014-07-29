@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IE Checker Example</title>
+	<script src="ie-checker-min.js"></script>
+	<style type="text/css">
+		div {
+			display: none;
+		}
+		.not-ie {
+			display: block;
+		}
+		.is-ie .not-ie {
+			display: none;
+		}
+		html.ie11 div.ie11,
+		html.ie10 div.ie10,
+		html.ie9 div.ie9,
+		html.ie8 div.ie8,
+		html.ie7 div.ie7
+		{
+			display: block;
+		}
+
+		.lt-ie9 .warning {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="ie7">You are IE7!</div>
+	<div class="ie8">You are IE8!</div>
+	<div class="ie9">You are IE9!</div>
+	<div class="ie10">You are IE10!</div>
+	<div class="ie11">You are IE11!</div>
+	<div class="not-ie">You are not IE!</div>
+	<div class="warning">You are using outdated browser. Visit <a href="http://browsehappy.com" target="_blank">browsehappy.com</a>!</div>
+</body>
+</html>
