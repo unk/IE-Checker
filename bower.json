@@ -1,0 +1,25 @@
+{
+  "name": "IE-Checker",
+  "main": "ie-checker.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Unk/IE-Checker",
+  "description": "Internet Explorer version check via Javascript",
+  "keywords": [
+    "[",
+    "'ie'",
+    "'ie-checker'",
+    "'userAgent'",
+    "]"
+  ],
+  "authors": [
+    "Naram Kim (a.k.a. Unknown) unknown@grotesq.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

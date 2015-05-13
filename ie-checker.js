@@ -1,14 +1,14 @@
 /*!
- * IE-Checker v1.0
- * http://grotesq.com
+ * IE-Checker v1.0.0
+ * https://github.com/Unk/IE-Checker
  *
- * Author : Kim Naram ( a.k.a. Unknown )
+ * Author : Naram Kim ( a.k.a. Unknown )
  * Email : unknown@grotesq.com
  *
- * Copyright 2007-2014 The GrotesQ
+ * Copyright 2007-2015 The GrotesQ
  * Released under the MIT license
  *
- * Date: 2014-07-29 18:38
+ * Date: 2015-05-13 14:47
  */
 ;( function() {
 	var ua = navigator.userAgent.toLowerCase();
