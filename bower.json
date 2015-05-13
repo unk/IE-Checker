@@ -5,11 +5,9 @@
   "homepage": "https://github.com/Unk/IE-Checker",
   "description": "Internet Explorer version check via Javascript",
   "keywords": [
-    "[",
-    "'ie'",
-    "'ie-checker'",
-    "'userAgent'",
-    "]"
+    "ie",
+    "ie-checker",
+    "userAgent"
   ],
   "authors": [
     "Naram Kim (a.k.a. Unknown) unknown@grotesq.com"
